@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dev-tools" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dev-tools" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dev-tools.iml" filepath="$PROJECT_DIR$/dev-tools.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="releases" />
+      <option name="name" value="releases" />
+      <option name="url" value="https://common.repositories.cloud.sap/artifactory/build.releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="lbn-aux" />
+      <option name="name" value="lbn-aux" />
+      <option name="url" value="https://common.repositories.cloud.sap/artifactory/lbn-aux" />
+    </remote-repository>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: cn.hutool:hutool-all:5.8.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/cn/hutool/hutool-all/5.8.8/hutool-all-5.8.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/cn/hutool/hutool-all/5.8.8/hutool-all-5.8.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/cn/hutool/hutool-all/5.8.8/hutool-all-5.8.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:druid:1.2.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/druid/1.2.13/druid-1.2.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/druid/1.2.13/druid-1.2.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/druid/1.2.13/druid-1.2.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:easyexcel-core:3.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel-core/3.1.1/easyexcel-core-3.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel-core/3.1.1/easyexcel-core-3.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel-core/3.1.1/easyexcel-core-3.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:easyexcel-support:3.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel-support/3.1.1/easyexcel-support-3.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel-support/3.1.1/easyexcel-support-3.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel-support/3.1.1/easyexcel-support-3.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:easyexcel:3.1.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel/3.1.1/easyexcel-3.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel/3.1.1/easyexcel-3.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/easyexcel/3.1.1/easyexcel-3.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.83">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/fastjson/1.2.83/fastjson-1.2.83.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/fastjson/1.2.83/fastjson-1.2.83-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/alibaba/fastjson/1.2.83/fastjson-1.2.83-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.virtuald:curvesapi:1.06">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.code.findbugs:jsr305:3.0.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.code.gson:gson:2.9.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.errorprone:error_prone_annotations:2.11.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:failureaccess:1.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:guava:31.1-jre">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.google.j2objc:j2objc-annotations:1.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.jayway.jsonpath:json-path:2.6.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.squareup.okhttp3:okhttp:4.10.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.squareup.okio:okio-jvm:3.0.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.zaxxer:SparseBitSet:1.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-beanutils:commons-beanutils:1.9.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-codec:commons-codec:1.15">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-codec/commons-codec/1.15/commons-codec-1.15-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-collections:commons-collections:3.2.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-io:commons-io:2.11.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-logging:commons-logging:1.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.rest-assured:json-path:5.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.rest-assured:rest-assured-common:5.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.rest-assured:rest-assured:5.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: io.rest-assured:xml-path:5.2.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:4.13.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/junit/junit/4.13.2/junit-4.13.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/junit/junit/4.13.2/junit-4.13.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/junit/junit/4.13.2/junit-4.13.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.minidev:accessors-smart:2.4.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.minidev:json-smart:2.4.7">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-collections4:4.4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-compress:1.21">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-csv:1.9.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-csv/1.9.0/commons-csv-1.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-lang3:3.11">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-math3:3.6.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-text:1.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-text/1.9/commons-text-1.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/commons/commons-text/1.9/commons-text-1.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.groovy:groovy-json:4.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.groovy:groovy-xml:4.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.groovy:groovy:4.0.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpclient:4.5.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpcore:4.4.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.httpcomponents:httpmime:4.5.13">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-ooxml-schemas:4.1.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-ooxml:4.1.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi:4.1.2">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi/4.1.2/poi-4.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/poi/poi/4.1.2/poi-4.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.xmlbeans:xmlbeans:3.1.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.checkerframework:checker-qual:3.12.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.ehcache:ehcache:3.9.9">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ehcache/ehcache/3.9.9/ehcache-3.9.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ehcache/ehcache/3.9.9/ehcache-3.9.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ehcache/ehcache/3.9.9/ehcache-3.9.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.hamcrest:hamcrest:2.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.31">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.31/kotlin-stdlib-jdk7-1.5.31-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.31">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.31/kotlin-stdlib-jdk8-1.5.31-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.20">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jetbrains:annotations:13.0">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/annotations/13.0/annotations-13.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mapstruct:mapstruct-jdk8:1.2.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/mapstruct/mapstruct-jdk8/1.2.0.Final/mapstruct-jdk8-1.2.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/mapstruct/mapstruct-jdk8/1.2.0.Final/mapstruct-jdk8-1.2.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/mapstruct/mapstruct-jdk8/1.2.0.Final/mapstruct-jdk8-1.2.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mapstruct:mapstruct-processor:1.2.0.Final">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/mapstruct/mapstruct-processor/1.2.0.Final/mapstruct-processor-1.2.0.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/mapstruct/mapstruct-processor/1.2.0.Final/mapstruct-processor-1.2.0.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/mapstruct/mapstruct-processor/1.2.0.Final/mapstruct-processor-1.2.0.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.ow2.asm:asm:9.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ow2/asm/asm/9.1/asm-9.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ow2/asm/asm/9.1/asm-9.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/ow2/asm/asm/9.1/asm-9.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.projectlombok:lombok:1.18.24">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.32">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$USER_HOME$/SAPDevelop/maven/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
