@@ -1,4 +1,4 @@
-package com.sap.dev.tools;
+package com.mimogoods.dev.tools;
 
 import java.io.File;
 import java.util.Collection;
